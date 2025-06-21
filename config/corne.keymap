@@ -35,9 +35,9 @@ layer_2 {
 >;};
 layer_3 {
          bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp F1  &kp F4  &trans              &kp LG(UP_ARROW)  &trans         &trans             &kp K_AGAIN  &kp F6         &kp F7           &kp F8     &kp F9     &kp F10
+&kp F2  &kp F5  &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(RIGHT)  &trans             &kp K_UNDO   &kp K_COPY     &kt K_PASTE      &kp K_CUT  &kp RC(A)  &kt K_FIND
+&kp F3  &trans  &trans              &trans            &trans         &trans             &trans       &trans         &trans           &trans     &kp F11    &kp F12
+                                    &kp CAPS          &trans         &kp LC(LA(DEL))    &kp PAGE_UP  &kp PAGE_DOWN  &kp PRINTSCREEN
 >;};
   };
